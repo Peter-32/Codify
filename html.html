@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Codify</title>
+		<link type="text/css" rel="stylesheet" href="css.css"/>
+	</head>
+	<body>
+		<div id="buttonContainer"></div>
+
+		<form name="form1">
+		  <div id="inputContainer">
+		  <h3 class="title">Input</h3>
+		  <textarea id="inputTextArea" rows="18" cols="50" placeholder="Instructions:
+		Place your button title on the first line
+		Place all of your code next line(s)
+		When you're finished with your code block type *** on the next line.  Then repeat.  For example:
+
+		For Loop Button
+		for (var i = 0; i < _; i++) {
+		}
+		***
+		While Loop Button
+		while (_) {
+		}                                             
+		***
+		(And so on...)"></textarea>
+		  </div>
+		</form>
+
+		<form name="form2">
+		  <h3 class="title">Output</h3>
+		  <textarea id="outputTextArea" rows="18" cols="50"></textarea>
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js.js"></script>
+	</body>
